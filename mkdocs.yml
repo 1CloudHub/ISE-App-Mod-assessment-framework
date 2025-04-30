@@ -1,0 +1,94 @@
+site_name: Legacy Application Modernization Assessment Framework
+site_description: A Structured, AI-Augmented, Diagram-Driven Framework
+site_author: 1CloudHub
+copyright: Copyright &copy; 2023 1CloudHub
+
+theme:
+  name: readthedocs
+  language: en
+  direction: ltr
+  favicon: assets/favicon.png
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: date
+  # - tags:
+  #     tags_file: tags.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/1cloudhub
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/1cloudhub
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji
+  - attr_list
+  - md_in_html
+  - tables
+  - def_list
+  - footnotes
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Framework Overview: overview.md
+  - Assessment Process:
+    - Engagement Model: engagement-model.md
+    - Execution Plan: execution-plan.md
+    - Governance: governance.md
+  - Session Activities:
+    - Session 1: sessions/session1.md
+    - Session 2: sessions/session2.md
+    - Sessions 3-5: sessions/sessions3-5.md
+    - Session 6: sessions/session6.md
+    - Session 7: sessions/session7.md
+    - Session 8: sessions/session8.md
+    - Session 9: sessions/session9.md
+    - Session 10: sessions/session10.md
+    - Session 11: sessions/session11.md
+    - Session 12: sessions/session12.md
+  - Assessment Team Enablement:
+    - Onboarding Checklist: onboarding-checklist.md
+    - Assessment Tools: assessment-tools.md
+    - Assessment Techniques: assessment-techniques.md
+    - Sample Assessment Flow: sample-assessment-flow.md
+  - Resources:
+    - General Tools: tools.md
+    - Tools & Roles: tools-roles.md
+    - Success Factors: success-factors.md
+  - Troubleshooting: troubleshooting.md
+
+
+
+
+
+
+
+
+
