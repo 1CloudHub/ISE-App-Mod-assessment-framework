@@ -9,6 +9,11 @@ use_directory_urls: true
 remote_branch: gh-pages
 remote_name: origin
 
+
+# Ensure proper URL handling
+docs_dir: docs  # directory containing your markdown files
+site_dir: site  # directory where the site will be built
+
 theme:
   name: readthedocs
   language: en
